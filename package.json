@@ -1,0 +1,44 @@
+{
+  "name": "comic-grading-app",
+  "version": "1.0.0",
+  "description": "Tool to help comic collectors grade their comics",
+  "repository": "git@github.com:jonaslaurens/comic-grading-app.git",
+  "author": "Jonas Laurens <lauwe505@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^4.5.0",
+    "@fontsource/open-sans-condensed": "^4.5.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "framer-motion": "^4.1.17",
+    "immer": "^9.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.3.0",
+    "zustand": "^3.5.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.0",
+    "vite": "^2.4.4",
+    "vite-preset-react": "^1.3.0"
+  }
+}
