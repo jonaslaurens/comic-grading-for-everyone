@@ -28,7 +28,10 @@ const Pro = ({ history }) => {
   const { categories, calculateGrade, comicDefects, setPage, page } =
     useGradeStore((state) => state);
 
-  const [categoryName, setCategoryName] = useState('');
+  const categoryList = categories.map((category) => category.name);
+
+  const [categoryName, setCategoryName] = useState(categoryList[0]);
+  const [categoryValue, setCategoryValue] = useState('');
 
   const handleOnGradeClick = () => {
     calculateGrade();
@@ -43,21 +46,31 @@ const Pro = ({ history }) => {
     }
   }, [categoryName]);
 
+  const handleInputChange = (event, value) => {
+    if (value) {
+      setCategoryName(value);
+      setCategoryValue(value);
+    } else {
+      setCategoryName(categoryList[0]);
+      setCategoryValue('');
+    }
+  };
+
   return (
     <ProStyles>
       <Autocomplete
         id="combo-box-demo"
-        options={categories}
-        getOptionLabel={(option) => option.name}
+        value={categoryValue}
+        onChange={handleInputChange}
         style={{ width: 300 }}
-        onInputChange={(event, chosenCategory) => {
-          setCategoryName(chosenCategory);
-        }}
+        options={categoryList}
+        defaultValue={categoryList[0]}
+        getOptionSelected={(option) => option === categoryName}
         renderInput={(params) => (
-          // eslint-disable-next-line react/jsx-props-no-spreading
-          <TextField {...params} label="Category" variant="outlined" />
+          <TextField {...params} label="Defects" variant="outlined" />
         )}
       />
+
       <Defects defects={comicDefects[page].defects} />
       <Button
         id="grade"
