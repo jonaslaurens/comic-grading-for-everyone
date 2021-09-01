@@ -52,15 +52,19 @@ const Navbar = () => {
 
   const [visible, setVisible] = useState(false);
 
-  const { setProcess, process } = useGradeStore((state) => state);
+  const { setProcess, process, restartProcess } = useGradeStore(
+    (state) => state
+  );
 
   const handleSelectProcess = (chosenProcess) => {
     if (chosenProcess === 'new') {
       setProcess('new');
+      restartProcess();
       setVisible(false);
       return history.push('/new');
     }
 
+    restartProcess();
     setProcess('pro');
     setVisible(false);
     return history.push('/pro');
@@ -78,6 +82,8 @@ const Navbar = () => {
             onClick={() => {
               history.push('/');
               setVisible(false);
+              restartProcess();
+              setProcess('Home');
             }}
           >
             Home

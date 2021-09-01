@@ -67,6 +67,7 @@ const Pro = ({ history }) => {
         defaultValue={categoryList[0]}
         getOptionSelected={(option) => option === categoryName}
         renderInput={(params) => (
+          // eslint-disable-next-line react/jsx-props-no-spreading
           <TextField {...params} label="Defects" variant="outlined" />
         )}
       />

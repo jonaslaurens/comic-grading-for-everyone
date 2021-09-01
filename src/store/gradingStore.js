@@ -13,7 +13,7 @@ const store = (set) => ({
     name: defect.name,
     id: defect._id,
   })),
-  process: '',
+  process: 'Home',
   page: 0,
   result: {},
   resultDefects: [],
