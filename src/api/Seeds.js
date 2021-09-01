@@ -7,7 +7,7 @@ export const defects = [
         name: 'Glossy, smooth; no abrasion',
         checked: false,
         value: 100,
-        image: '/images/abrasion/100.jpg',
+        image: '/images/perfect_in_every_way.jpg',
       },
       {
         name: 'Just noticeable abrasion',
@@ -49,7 +49,7 @@ export const defects = [
         name: 'Perfect Centration',
         checked: false,
         value: 100,
-        image: '/images/centration/100.jpg',
+        image: '/images/perfect_in_every_way.jpg',
       },
       {
         name: 'Off centre 1-3mm',
@@ -85,7 +85,7 @@ export const defects = [
         name: 'None- Flat & Smooth',
         checked: false,
         value: 100,
-        image: '/images/colourlift/100.jpg',
+        image: '/images/perfect_in_every_way.jpg',
       },
       {
         name: '3mm area removed',
@@ -121,7 +121,7 @@ export const defects = [
         name: 'None',
         checked: false,
         value: 100,
-        image: '/images/colourspots/100.jpg',
+        image: '/images/perfect_in_every_way.jpg',
       },
       {
         name: 'Tiny flecks',
@@ -145,7 +145,7 @@ export const defects = [
         name: 'Sharp Corners',
         checked: false,
         value: 100,
-        image: '/images/cornercreases/100.jpg',
+        image: '/images/cornerrounding/100.jpg',
       },
       {
         name: 'Just Noticeable',
@@ -244,7 +244,7 @@ export const defects = [
         image: '/images/cornerrounding/70.jpg',
       },
       {
-        name: 'Rounded; Radius &gt;3mm',
+        name: 'Rounded; Radius > 3mm',
         checked: false,
         value: 65,
         image: '/images/cornerrounding/65.jpg',
@@ -700,7 +700,7 @@ export const defects = [
         image: '/images/pieceout/96.jpg',
       },
       {
-        name: '&lt;3mm Piece Out',
+        name: '< 3mm Piece Out',
         checked: false,
         value: 70,
         image: '/images/pieceout/85.jpg',
@@ -916,12 +916,6 @@ export const defects = [
         image: '/images/spineroll/60.jpg',
       },
       {
-        name: 'Moderate Spine Roll',
-        checked: false,
-        value: 50,
-        image: '/images/spineroll/50.jpg',
-      },
-      {
         name: 'Substantial Spine Roll',
         checked: false,
         value: 30,
@@ -1030,12 +1024,6 @@ export const defects = [
         image: '/images/staining/65.jpg',
       },
       {
-        name: 'Small Stain Spotting',
-        checked: false,
-        value: 60,
-        image: '/images/staining/60.jpg',
-      },
-      {
         name: 'Label Adhesive',
         checked: false,
         value: 50,
@@ -1046,12 +1034,6 @@ export const defects = [
         checked: false,
         value: 45,
         image: '/images/staining/45.jpg',
-      },
-      {
-        name: 'Dark fingerprint stains',
-        checked: false,
-        value: 40,
-        image: '/images/staining/40.jpg',
       },
       {
         name: 'Large rust/oxidation stain',
@@ -1081,19 +1063,19 @@ export const defects = [
         name: 'Small Date Stamp',
         checked: false,
         value: 94,
-        image: '/images/stamps/94.jpg',
+        image: '/images/coverwhiteness/90.jpg',
       },
       {
-        name: 'Cover Stamp &lt; 20mm',
+        name: 'Cover Stamp < 20mm',
         checked: false,
         value: 92,
-        image: '/images/stamps/92.jpg',
+        image: '/images/stamps/94.jpg',
       },
       {
         name: 'Bookshop Stamp',
         checked: false,
         value: 90,
-        image: '/images/coverwhiteness/90.jpg',
+        image: '/images/stamps/92.jpg',
       },
       {
         name: 'Multiple Large Stamps',
@@ -1111,7 +1093,7 @@ export const defects = [
         name: 'Perfect Placement',
         checked: false,
         value: 100,
-        image: '/images/stapleplacement/100.jpg',
+        image: '/images/staplewear/100.jpg',
       },
       {
         name: 'Slightly Off Alignment',
@@ -1124,12 +1106,6 @@ export const defects = [
         checked: false,
         value: 96,
         image: '/images/stapleplacement/96.jpg',
-      },
-      {
-        name: '5mm Crease',
-        checked: false,
-        value: 92,
-        image: '/images/cornercreases/92.jpg',
       },
       {
         name: '>3mm mis-staple',
@@ -1153,7 +1129,7 @@ export const defects = [
         name: 'Clean, Shiny Staple',
         checked: false,
         value: 100,
-        image: '/images/staplerust/100.jpg',
+        image: '/images/staplewear/100.jpg',
       },
       {
         name: 'Matt Appearance',
@@ -1196,12 +1172,6 @@ export const defects = [
         checked: false,
         value: 96,
         image: '/images/staplewear/96.jpg',
-      },
-      {
-        name: '2mm Staple Crease',
-        checked: false,
-        value: 94,
-        image: '/images/staplewear/94.jpg',
       },
       {
         name: 'Buckled Spine; colour breaking creases',
@@ -1267,7 +1237,7 @@ export const defects = [
         name: 'None',
         checked: false,
         value: 100,
-        image: '/images/coverwhiteness/100.jpg',
+        image: '/images/perfect_in_every_way.jpg',
       },
       {
         name: 'Just Perceptible',
@@ -1339,7 +1309,7 @@ export const defects = [
         name: 'None',
         checked: false,
         value: 100,
-        image: '/images/tape/100.jpg',
+        image: '/images/perfect_in_every_way.jpg',
       },
       {
         name: 'Single tear <5mm',
@@ -1435,7 +1405,7 @@ export const defects = [
         name: 'No Writing',
         checked: false,
         value: 100,
-        image: '/images/writing/100.jpg',
+        image: '/images/perfect_in_every_way.jpg',
       },
       {
         name: 'Unobtrusive writing; pencil BC',
