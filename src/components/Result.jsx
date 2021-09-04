@@ -8,20 +8,28 @@ const ResultStyles = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 30px 0;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
 `;
 
 const ResulstLabel = styled.div`
-  width: 40%;
+  width: 100%;
   align-self: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 80px;
+  padding: 0 15px;
   text-align: left;
+
+  @media (min-width: 900px) {
+    width: 40%;
+  }
 
   h4 {
     text-align: center;
@@ -29,8 +37,13 @@ const ResulstLabel = styled.div`
 `;
 
 const Results = styled.ul`
-  padding: 0;
+  margin-top: 30px;
+  padding: 0 15px;
   align-self: flex-start;
+
+  @media (min-width: 900px) {
+    margin-top: 0;
+  }
 
   li {
     list-style: none;
